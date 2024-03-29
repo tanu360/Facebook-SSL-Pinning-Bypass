@@ -21,18 +21,10 @@ This project hosts modified versions of the Facebook app (443.0.0.23.229) that i
 - **App Name:** Facebook
 - **Package Name:** com.facebook.katana
 - **Version:** 443.0.0.23.229
-- **Supported Architectures:** x86, ARM (armeabi-v7a), ARM64 (arm64-v8a)
+- **Supported Architectures:** ARM64 (arm64-v8a)
 
 
 ## Modified APK Files
-
-### Facebook_443.0.0.23.229_x86.apk
-- **Architecture:** x86
-- **Description:** This version is tailored for devices or emulators that operate on an x86 architecture. It is ideal for debugging on x86 Android emulators.
-
-### Facebook_443.0.0.23.229_armeabi-v7a.apk
-- **Architecture:** ARM (armeabi-v7a)
-- **Description:** This build is compatible with older and lower-end devices that use ARM architecture. It ensures broader compatibility, particularly with devices that do not support newer ARM versions.
 
 ### Facebook_443.0.0.23.229_arm64-v8a.apk
 - **Architecture:** ARM64 (arm64-v8a)
@@ -42,13 +34,11 @@ This project hosts modified versions of the Facebook app (443.0.0.23.229) that i
 
 | APK File | Architecture | Description |
 |----------|--------------|-------------|
-| Facebook_443.0.0.23.229_x86.apk | x86 | Suitable for x86 devices/emulators. Ideal for debugging on x86 platforms. |
-| Facebook_443.0.0.23.229_armeabi-v7a.apk | ARM (armeabi-v7a) | Compatible with older and low-end ARM devices. Ensures broader device compatibility. |
 | Facebook_443.0.0.23.229_arm64-v8a.apk | ARM64 (arm64-v8a) | Optimized for modern ARM64 devices. Provides enhanced performance and stability. |
 
 ## Features
 - **SSL Bypass Patch:** Enables the interception of encrypted network traffic, facilitating the analysis of Facebook's private API calls.
-- **Multiple Architectures:** Tailored APKs for x86, ARM, and ARM64 architectures, enhancing compatibility across different Android devices and emulators.
+- **Multiple Architectures:** Tailored APK for ARM64 architectures, enhancing compatibility across different Android devices and emulators.
 
 ## Usage Instructions
 1. Select the APK corresponding to your device's architecture.
